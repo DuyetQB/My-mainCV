@@ -2419,7 +2419,7 @@ font-size: 20px;
        display:block;
      }
      .wrapper .content .about-me{
-       height:1200px;
+       height:1100px;
      }
      .wrapper .content .about-me .me-cover{
        display: flex; flex-direction: column;
@@ -2462,7 +2462,8 @@ font-size: 20px;
   
     
      .wrapper .content .video-next .facebook-comment{
-       display:block;
+      display: block;
+       width:90%;
      }
      .wrapper .main-footer{
        height:1%;
