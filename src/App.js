@@ -9,6 +9,8 @@ class App extends Component {
         return(
         
           
+        
+          
                 <div className="wrapper">
                   <header className="header" autofocus>
                     <div className="left">
@@ -37,15 +39,15 @@ class App extends Component {
                   <div className="content">
                     <div className="first-div" id="home">
                       <div className="first-div-content">
-                        <h3>Tôi không có tài năng gì cả. Tôi chỉ đam mê hiểu biết</h3>
-                        <p>Albert Einstein</p>
+                        <h3> Hãy giữ khuôn mặt bạn luôn hướng về ánh mặt trời, và bóng tối sẽ ngả phía sau bạn</h3>
+                        <p>Đinh Sĩ Duyệt </p>
                       </div>
                     </div>
                     <div className="me">
                       <div className="avata">
-                        <a href="https://github.com/DuyetQB"><img className="main-image" src="https://1.bp.blogspot.com/-HAEeuYATw0w/X6FHQFRC0BI/AAAAAAAAJDU/Wzlsh13nyIApQMUMj2LjXzrf_te9z76lQCNcBGAsYHQ/s1340/72243306_745912359184848_1103428032359563264_o_edited.jpg" alt="" /></a>
+                        <a href="https://github.com/DuyetQB"><img className="main-image" src="https://cdn.dribbble.com/users/15687/screenshots/11957860/media/db7f692bf69fbd0b36916bc6b062e396.png" alt="" /></a>
                       </div>
-                      <div className="show-name"> <h1>Hi!  <span className="danh_chu" data-thoigiandoi={1500} data-chu="[&quot;Everyone&quot;, &quot;My name is Duyet&quot;, &quot;I am a frontend Developer&quot;]"><span className="tu">I am</span></span></h1></div>
+                      <div className="show-name"> <h1>Hi!  <span className="danh_chu" data-thoigiandoi={1500} data-chu="[&quot;Everyone&quot;, &quot;My name is Duyet&quot;, &quot;I am a frontend Developer&quot;]"><span className="tu">I am a fron</span></span></h1></div>
                     </div>
                     <div className="my-projects-wrap" id="all-my-projects">
                       <div className="my-projects-text"><h1>My projects </h1></div>
@@ -71,31 +73,31 @@ class App extends Component {
                         <div className="project-item">
                           <a href="https://calculator-blond.vercel.app/main.html"><img className="produce-image" src="https://images.unsplash.com/photo-1594980596870-8aa52a78d8cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" /></a>
                           <div className="produce-text">
-                            <h3>Calculator</h3>
+                            <h3>Máy tính</h3>
                           </div>
                         </div>
                         <div className="project-item">
                           <a href="https://eduglobal-three.vercel.app/demo%20responsive1.html"><img className="produce-image" src="https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" /></a>
                           <div className="produce-text">
-                            <h3>Education</h3>
+                            <h3>Giáo dục</h3>
                           </div>
                         </div>
                         <div className="project-item">
                           <a href="https://clock-interface.vercel.app/main.html"><img className="produce-image" src="https://1.bp.blogspot.com/-eSeZw4oH7xg/X6kA4PLllTI/AAAAAAAAJH0/gdWWhdXghHAz6EyGdSdEa-CJDXb_2oz-wCNcBGAsYHQ/s860/unclock.png" alt="" /></a>
                           <div className="produce-text">
-                            <h3>Clock Interface App</h3>
+                            <h3>Mật khẩu mô phỏng </h3>
                           </div>
                         </div>
                         <div className="project-item">
                           <a href="https://calling-app.vercel.app/main.html"> <img className="produce-image" src="https://images.unsplash.com/photo-1516055619834-586f8c75d1de?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" /></a>
                           <div className="produce-text">
-                            <h3>Calling App</h3>
+                            <h3>Cuộc gọi giả </h3>
                           </div>
                         </div>
                         <div className="project-item">
                           <a href="https://lazyload-ten.vercel.app/lazyload.html"><img className="produce-image" src="https://images.unsplash.com/photo-1604298027700-98d678b0f7a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" /></a>
                           <div className="produce-text">
-                            <h3>Lazyload</h3>
+                            <h3>Hiệu ứng Lazyload</h3>
                           </div>
                         </div>
                       </div>
@@ -165,11 +167,10 @@ class App extends Component {
                             <li className="about-right-li"><b> Đã học tại trường:</b>THCS &amp; THPT Hóa Tiến.</li>
                             <li className="about-right-li"><b>Ngày sinh:</b> 29/04/2001.</li>
                             <li className="about-right-li"><b>Nơi sinh:</b> Hóa Sơn - Minh Hóa - Quảng Bình . </li>
-                            <li className="about-right-li"><b>Tại sao là trường THPT:</b> Tôi đã quyết định bỏ học năm lớp 11. </li>
-                            <li className="about-right-li"><b>Lý do tôi bỏ học:</b> Bởi vì tôi nghĩ tôi không thuộc về nền giáo dục Việt Nam .Tôi đã bị ám ảnh mang tên lý thuyết ,những thứ mà tôi nghĩ tôi cũng chả bao giờ áp dụng vào trong thực tế.Tôi thật sự muốn thỏa mãn những thứ mà tôi chưa tự tay mình làm được</li>
+                            <li className="about-right-li"><b>Khả năng Tiếng Anh :</b>Có thể giao tiếp được .</li>
                             <li className="about-right-li"><b>Email của tôi :</b> Dinhsyduyet@gmail.com.</li>
                             <li className="about-right-li"><b>Những công việc khác đã làm:</b> Tôi từng làm cho một công ty về gia công cơ khí chính xác.</li>
-                            <li className="about-right-li"><b>Hiện tại tôi đang làm gì:</b>Hiện tại tôi tự học là chính .</li>
+                            <li className="about-right-li"><b>Hiện tại:</b>Hiện tại tôi tự học là chính .</li>
                           </ul>
                         </div>
                       </div>
@@ -232,7 +233,7 @@ class App extends Component {
                     <div className="contact-wrapper" id="all-contact-wrapper">
                       <form id="contact">
                         <h3> Contact me</h3>
-                        <h4>Contact me today, and get reply with in 24 hours!</h4>
+                        <h4>Liên hệ với tôi nào !</h4>
                         <fieldset>
                           <input placeholder="Your name" type="text" tabIndex={1} required />
                         </fieldset>
@@ -281,31 +282,13 @@ class App extends Component {
                       </div>
                     </div>
                     <div className="video-next">
-                      <iframe width={640} height={360} src="https://www.youtube.com/embed/RWLyaTpw1VY" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
-                      <div className="running_man active">
-                        <div className="textarea">
-                          <span>Love<br />by Duyet</span>
-                          <span>Run</span>
-                          <span>ning</span>
-                          <span>with</span>
-                          <span>Me</span>
-                        </div>
-                        <figure className="man" style={{left: '0px', backgroundImage: 'url("http://www.vicchoutw.com/codepen/images/javascript/running/runman7.png")'}} />
-                      </div>
-                      {/* for preloading images */}
-                      <div id="preload">
-                        <img src="http://www.vicchoutw.com/codepen/images/javascript/running/runman1.png" />
-                        <img src="http://www.vicchoutw.com/codepen/images/javascript/running/runman2.png" />
-                        <img src="http://www.vicchoutw.com/codepen/images/javascript/running/runman3.png" />
-                        <img src="http://www.vicchoutw.com/codepen/images/javascript/running/runman4.png" />
-                        <img src="http://www.vicchoutw.com/codepen/images/javascript/running/runman5.png" />
-                        <img src="http://www.vicchoutw.com/codepen/images/javascript/running/runman6.png" />
-                        <img src="http://www.vicchoutw.com/codepen/images/javascript/running/runman7.png" />
-                        <img src="http://www.vicchoutw.com/codepen/images/javascript/running/runman8.png" />
+                      <iframe width={639} height={360} src="https://www.youtube.com/embed/Vg25AFBl3B8" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+                      <div className="girl-sitdown">
+                        <img src="https://cdn.dribbble.com/users/4535532/screenshots/14297341/media/923c5ee59700d3ec13d71382b324c277.jpg" alt="" />
                       </div>
                       <div className="facebook-comment">
                         <div id="fb-root" className=" fb_reset"><div style={{position: 'absolute', top: '-10000px', width: '0px', height: '0px'}}><div /></div></div>
-                        <div className="fb-comments fb_iframe_widget fb_iframe_widget_fluid_desktop" data-href="https://dinhsyduyet.blogspot.com" data-numposts={5} data-width fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&container_width=466&height=100&href=https%3A%2F%2Fdinhsyduyet.blogspot.com%2F&locale=vi_VN&numposts=5&sdk=joey&version=v8.0&width=550"><span style={{verticalAlign: 'bottom', width: '550px', height: '0px'}}><iframe name="f88d261912eef8" width="550px" height="100px" data-testid="fb:comments Facebook Social Plugin" title="fb:comments Facebook Social Plugin" frameBorder={0} allowTransparency="true" allowFullScreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v8.0/plugins/comments.php?app_id=&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df16138c40fdea8%26domain%3Dmy-cv2.vercel.app%26origin%3Dhttps%253A%252F%252Fmy-cv2.vercel.app%252Ff1217df23327558%26relation%3Dparent.parent&container_width=466&height=100&href=https%3A%2F%2Fdinhsyduyet.blogspot.com%2F&locale=vi_VN&numposts=5&sdk=joey&version=v8.0&width=550" style={{border: 'none', visibility: 'visible', width: '550px', height: '0px'}} className /></span></div>
+                        <div className="fb-comments fb_iframe_widget fb_iframe_widget_fluid_desktop" data-href="https://dinhsyduyet.blogspot.com" data-numposts={5} data-width fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&container_width=0&height=100&href=https%3A%2F%2Fdinhsyduyet.blogspot.com%2F&locale=vi_VN&numposts=5&sdk=joey&version=v8.0&width=550"><span style={{verticalAlign: 'bottom', width: '550px', height: '1016px'}}><iframe name="f18c90760b72d" width="550px" height="100px" data-testid="fb:comments Facebook Social Plugin" title="fb:comments Facebook Social Plugin" frameBorder={0} allowTransparency="true" allowFullScreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v8.0/plugins/comments.php?app_id=&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df2f6e0f445773e%26domain%3Dmy-cv2.vercel.app%26origin%3Dhttps%253A%252F%252Fmy-cv2.vercel.app%252Ff7fc8ae7140dd8%26relation%3Dparent.parent&container_width=0&height=100&href=https%3A%2F%2Fdinhsyduyet.blogspot.com%2F&locale=vi_VN&numposts=5&sdk=joey&version=v8.0&width=550" className style={{border: 'none', visibility: 'visible', width: '550px', height: '1016px'}} /></span></div>
                       </div>
                     </div>
                   </div>
@@ -313,6 +296,7 @@ class App extends Component {
                     <div className="copywrite">Copyright © 2020 Dinh Si Duyet</div>
                   </footer>
                 </div>
+            
             
 
 
