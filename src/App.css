@@ -2310,14 +2310,16 @@ flex-direction: row;
 }
 .wrapper .content .video-next .facebook-comment{
   width:100%;
-  height:400px;
+  height:700px;
   overflow-y: scroll;
+  overflow-x: scroll;
   display: none;
   margin-top: 60px;
+  position: relative;
  
 }
 
-  
+
   
 
   
@@ -2353,6 +2355,7 @@ font-size: 20px;
   @media(max-width:739px) {
     .wrapper{
       height:7000px;
+   
     }
     .wrapper .header{
     background-image: url(https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131__340.jpg);
@@ -2451,6 +2454,7 @@ font-size: 20px;
        display: flex; flex-direction: column;
        padding-left: 0px ;
        height:684px;
+       padding-top: 0px ;
      }
      .wrapper .content .video-next .girl-sitdown{
        display: none;
@@ -2463,7 +2467,8 @@ font-size: 20px;
     
      .wrapper .content .video-next .facebook-comment{
       display: block;
-       width:90%;
+ 
+    
      }
      .wrapper .main-footer{
        height:1%;
